@@ -24,7 +24,7 @@ jobs:
       - name: npm install and build
         #执行执行某个shell命令或脚本
         run: |
-          npm install
+          npm install --log-level silly
           npm run build
       
       - name: Upload artifact for deployment job
