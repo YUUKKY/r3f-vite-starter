@@ -24,6 +24,8 @@ jobs:
       - name: npm install and build
         #执行执行某个shell命令或脚本
         run: |
+          npm -v
+          echo "========================="
           npm install --loglevel silly
           npm run build
       
